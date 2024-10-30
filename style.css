@@ -5,6 +5,42 @@
 margin: 0 auto;
 padding: 0 15px;
 }
+
+
+.hero-section {
+    background-image: url(images/seo-06.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 481px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    opacity: 0.4;
+}
+
+.text-heading-banner {
+    display: flex;
+    height: 206px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 169px 201px 106px 200px;
+}
+
+.text-heading-banner h1 {
+    color: var(--white-color-aditya, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px; 
+    width: 1039px; 
+    height: 53px;
+}
+
 .seo-image-col
 {
     height: 100%;
@@ -171,6 +207,8 @@ border: 1px solid var(--Deactive-Card-Color, #E4E4E4);
 .service-item:hover .service-title {
     color: #FF9B00; 
 }
+
+
 
 .seo-services-grid-title
 {
