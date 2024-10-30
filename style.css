@@ -9,14 +9,12 @@ padding: 0 15px;
 
 .hero-section {
     background-image: url(images/seo-06.jpg);
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 481px;
     display: flex;
     justify-content: center;
     align-items: center; 
-    opacity: 0.4;
 }
 
 .text-heading-banner {
